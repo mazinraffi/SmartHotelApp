@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/fName_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="60dp"
+            android:ems="10"
+            android:hint="First Name*"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/mName_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Middle Name*"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fName_et" />
+
+        <EditText
+            android:id="@+id/lName_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Last Name*"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mName_et" />
+
+
+        <EditText
+            android:id="@+id/email_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="E-mail Address*"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lName_et" />
+
+        <EditText
+            android:id="@+id/password_et"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Password*"
+            android:inputType="textPassword"
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email_et" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:ems="10"
+            android:text="Please enter your details"
+            android:textColor="@android:color/background_dark"
+            android:textColorHint="@android:color/background_dark"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/fName_et"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/signUp_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/holo_blue_bright"
+            android:shadowColor="@android:color/background_dark"
+            android:text="Sign Up"
+            android:textColor="@android:color/background_light"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/password_et" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

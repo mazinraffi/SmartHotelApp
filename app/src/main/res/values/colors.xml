@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="Gold">#ffd700</color>
+    <color name="reception">#8e1d0c03</color>
+    <color name="black">#7d000000</color>
+    <color name="blackk">#000000</color>
+    <color name="whitee">#b7f9f8f8</color>
+    <color name="blackkk">#cb000000</color>
+
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/thermostat" />
+
+    <TextView
+        android:id="@+id/tempView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="221dp"
+        android:textSize="50sp"
+        app:fontFamily="@font/electrolize" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="172dp"
+        android:layout_marginLeft="172dp"
+        android:layout_marginBottom="301dp"
+        android:checked="false"
+        android:outlineAmbientShadowColor="@color/blackk"
+        android:outlineSpotShadowColor="@color/blackk"
+        android:shadowColor="@color/blackk"
+        android:textColor="@color/blackk"
+        android:textColorHighlight="@color/blackk"
+        android:textColorHint="@color/blackk"
+        android:textColorLink="@color/blackk" />
+
+    <EditText
+        android:id="@+id/setTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="102dp"
+        android:ems="5"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/setIt"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setTemp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-102dp"
+        android:text="Set temperature"
+        android:background="@drawable/background_login"
+        android:textColor="@android:color/white"
+        />
+
+
+</RelativeLayout>

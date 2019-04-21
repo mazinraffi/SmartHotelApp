@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SeniorDesign</string>
+    <string name="welcome_user">Enjoy your stay</string>
+    <string name="textview">TextView</string>
+    <string name="title_activity_light">Light</string>
+    <string name="temperature">Temperature</string>
+    <string name="lighting">Lighting</string>
+    <string name="curtains">Curtains</string>
+    <string name="todo">TODO</string>
+    <string name="power">Power</string>
+</resources>
